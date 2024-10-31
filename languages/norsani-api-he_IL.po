@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Norsani API\n"
+"POT-Creation-Date: 2019-07-08 23:16+0300\n"
+"PO-Revision-Date: 2019-07-08 23:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: norsani-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin-options.php:14
+msgid "API"
+msgstr "API"
+
+#: includes/admin-options.php:30
+#, php-format
+msgid "Braintree Settings (%s)"
+msgstr "הגדרות Braintree ( %s)"
+
+#: includes/admin-options.php:30
+msgid "API credentials"
+msgstr "אסמכתות API"
+
+#: includes/api-functions.php:12
+msgid "Norsani Mobile App User Menu"
+msgstr "תפריט משתמש Norsani Mobile App"
+
+#: includes/api-functions.php:62
+#, php-format
+msgid "Sorry %s is %s."
+msgstr "%s מצטער הוא %s."
+
+#: includes/api-functions.php:67
+#, php-format
+msgid "Sorry you cannot order from %s at this time."
+msgstr "מצטערים, לא ניתן להזמין מ- %s בשלב זה."
+
+#: includes/api-functions.php:77
+#, php-format
+msgid ""
+"Sorry, %s service is not available at the moment. Please choose another "
+"service."
+msgstr "מצטערים, שירות %s אינו זמין כרגע. בחר שירות אחר."
+
+#: includes/api-functions.php:87
+#, php-format
+msgid ""
+"Sorry, we cannot receive any more orders for %s today, please come back "
+"another day."
+msgstr "מצטערים, לא ניתן לקבל הזמנות נוספות עבור %s היום, אנא חזור עוד יום."
+
+#: includes/api-functions.php:92
+#, php-format
+msgid ""
+"Sorry, You cannot order that much quantity of %s for today. Please add a "
+"quantity lower than %s"
+msgstr ""
+"מצטערים, לא ניתן להזמין כמות גדולה של %s להיום. נא להוסיף כמות נמוכה מ %s"
+
+#: includes/api-functions.php:98
+#, php-format
+msgid "Sorry, you cannot order %s at this time"
+msgstr "מצטערים, לא ניתן להזמין %s בשלב זה"
+
+#: includes/api-functions.php:103
+#, php-format
+msgid "You cannot add another %s to your cart."
+msgstr "לא ניתן להוסיף עוד %s לעגלה."
+
+#: includes/api-functions.php:109 includes/api-functions.php:139
+#, php-format
+msgid "Sorry, %s cannot be purchased at this time."
+msgstr "מצטערים, %s לא ניתן לרכוש בשלב זה."
+
+#: includes/api-functions.php:115
+#, php-format
+msgid "You cannot add %s to the cart because quantity for today has finished."
+msgstr "לא ניתן להוסיף %s לעגלה מכיוון שהכמות עבור היום הסתיימה."
+
+#: includes/api-functions.php:133
+#, php-format
+msgid ""
+"You cannot add that amount of %s to the cart, only %s is available today and "
+"you already have %s in your cart."
+msgstr ""
+"לא ניתן להוסיף את הסכום הזה של %s לעגלה, רק %s זמין היום וכבר יש לך %s בעגלה."
+
+#: includes/api-functions.php:195
+#, php-format
+msgid "Coupon %s does not exist."
+msgstr "הקופון %s אינו קיים."
+
+#: includes/api-functions.php:210
+#, php-format
+msgid "Coupon %s can only be used individually."
+msgstr "קופון %s יכול לשמש רק בנפרד."
+
+#: includes/api-functions.php:324
+#, php-format
+msgid "+ Free delivery from %s"
+msgstr "+ משלוח חינם מ- %s"
+
+#: includes/api-functions.php:334
+msgid "Total Delivery"
+msgstr "סה\"כ אספקה"
+
+#: includes/api-functions.php:343
+#, php-format
+msgid "(estimated for %s)"
+msgstr "מוערך עבור: %s"
+
+#. translators: %s: country name
+#: includes/api-functions.php:375
+#, php-format
+msgid "estimated for %s"
+msgstr "הערכה עבור %s"
+
+#. translators: %s: tax information
+#: includes/api-functions.php:377
+#, php-format
+msgid "(includes %s)"
+msgstr "(כולל %s)"
+
+#: includes/api-functions.php:553 includes/api-functions.php:555
+#: includes/api-functions.php:557 includes/api-functions.php:559
+#, php-format
+msgid "Ends in %s %s"
+msgstr "מסתיים ב- %s %s"
+
+#: includes/api-functions.php:553
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "חודש"
+msgstr[1] "חודש"
+msgstr[2] "חודש"
+msgstr[3] "חודש"
+
+#: includes/api-functions.php:555
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "יום"
+msgstr[1] "יום"
+msgstr[2] "יום"
+msgstr[3] "יום"
+
+#: includes/api-functions.php:557
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "שעה"
+msgstr[1] "שעה"
+msgstr[2] "שעה"
+msgstr[3] "שעה"
+
+#: includes/api-functions.php:559
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "דקה"
+msgstr[1] "דקה"
+msgstr[2] "דקה"
+msgstr[3] "דקה"
+
+#: includes/api-functions.php:891
+msgid "a free"
+msgstr "חופשי"
+
+#: includes/api-functions.php:898
+msgid "discount"
+msgstr "הנחה"
+
+#: includes/authenticate-api.php:94
+msgid "Sorry, you are not allowed to preform this action."
+msgstr "מצטערים, אינך מורשה לבצע פעולה זו מראש."
+
+#: includes/authenticate-api.php:141
+msgid "Consumer secret is invalid."
+msgstr "סוד צרכן אינו תקין."
+
+#. translators: %s: amount of errors
+#: includes/authenticate-api.php:259
+#, php-format
+msgid "Missing OAuth parameter %s"
+msgid_plural "Missing OAuth parameters %s"
+msgstr[0] "הפרמטר %s של OAuth חסר"
+msgstr[1] "הפרמטר %s של OAuth חסר"
+msgstr[2] "הפרמטר %s של OAuth חסר"
+msgstr[3] "הפרמטר %s של OAuth חסר"
+
+#: includes/authenticate-api.php:299
+msgid "Consumer key is invalid."
+msgstr "מפתח הצרכן לא תקין."
+
+#: includes/authenticate-api.php:343
+msgid "Invalid signature - failed to sort parameters."
+msgstr "חתימה לא חוקית - נכשלה למיין פרמטרים."
+
+#: includes/authenticate-api.php:352
+msgid "Invalid signature - signature method is invalid."
+msgstr "חתימה לא תקינה - שיטת החתימה אינה תקינה."
+
+#: includes/authenticate-api.php:360
+msgid "Invalid signature - provided signature does not match."
+msgstr "חתימה לא חוקית - חתימה שסופקה אינה תואמת."
+
+#: includes/authenticate-api.php:436
+msgid "Invalid timestamp."
+msgstr "חותמת זמן לא חוקית."
+
+#: includes/authenticate-api.php:446
+msgid "Invalid nonce - nonce has already been used."
+msgstr "נעשה שימוש לא חוקי ב- nonce-nonce."
+
+#: includes/authenticate-api.php:508
+msgid "The API key provided does not have read permissions."
+msgstr "מפתח ה- API שסופק אינו מכיל הרשאות קריאה."
+
+#: includes/authenticate-api.php:516
+msgid "The API key provided does not have write permissions."
+msgstr "מפתח ה- API שסופק אינו כולל הרשאות כתיבה."
+
+#: includes/authenticate-api.php:521
+msgid "Unknown request method."
+msgstr "שיטת בקשה שאינה נתמכת"
+
+#: includes/cart-api.php:28 includes/checkout-api.php:28
+#: includes/checkout-api.php:64
+msgid "Cart data"
+msgstr "נתוני סל"
+
+#: includes/cart-api.php:38 includes/checkout-api.php:38
+#: includes/checkout-api.php:89
+msgid "Cart coupons"
+msgstr "קופונים של עגלות"
+
+#: includes/checkout-api.php:46 includes/checkout-api.php:75
+msgid "Order Type"
+msgstr "סוג הזמנה"
+
+#: includes/checkout-api.php:82
+msgid "Order Preparation Time"
+msgstr "זמן הכנת הזמנה"
+
+#: includes/checkout-api.php:97
+msgid "Billing Form"
+msgstr "טופס חיוב"
+
+#: includes/checkout-api.php:108
+msgid "Payment Method"
+msgstr "אמצעי תשלום"
+
+#: includes/checkout-api.php:115
+msgid "Delivery Notes"
+msgstr "הערות משלוח"
+
+#: includes/checkout-api.php:122
+msgid "User Location"
+msgstr "מיקום משתמש"
+
+#: includes/checkout-api.php:129
+msgid "User Geo Location"
+msgstr "מיקום גיאוגרפי משתמש"
+
+#: includes/checkout-api.php:385
+msgid "Cash on Delivery"
+msgstr "מזומן בעת המשלוח"
+
+#: includes/checkout-api.php:447
+msgid "Immediately"
+msgstr "מיד"
+
+#: includes/checkout-api.php:487
+msgid "Free Delivery"
+msgstr "משלוח חינם"
+
+#: includes/checkout-api.php:491
+msgid "N/A"
+msgstr "לא זמין"
+
+#: includes/checkout-api.php:500
+msgid "Minutes"
+msgstr "דקות"
+
+#: includes/location-api.php:34
+#, php-format
+msgid "All of %s"
+msgstr "כל %s"
+
+#: includes/main-api.php:28
+msgid "Default data to retrieve"
+msgstr "נתוני ברירת מחדל לאחזור"
+
+#: includes/main-api.php:40
+msgid "Available data to retrieve"
+msgstr "נתונים זמינים לאחזור"
+
+#: includes/main-api.php:57 includes/orders-api.php:51
+#: includes/vendor-api.php:23
+msgid "Unique identifier for the resource."
+msgstr "מזהה ייחודי עבור המשאב."
+
+#: includes/main-api.php:80 includes/search-api.php:28
+msgid "Type of vendors to retrieve"
+msgstr "סוג הספקים לאחזור"
+
+#: includes/main-api.php:88 includes/search-api.php:36
+msgid "Order type"
+msgstr "סוג הזמנה"
+
+#: includes/main-api.php:95
+msgid "Customer account email address"
+msgstr "כתובת דוא\"ל של חשבון לקוח"
+
+#: includes/main-api.php:102
+msgid "User locality"
+msgstr "יישוב משתמש"
+
+#: includes/main-api.php:137
+msgid "Search & order from nearby chefs and more.."
+msgstr "חיפוש וסדר מהשפים הסמוכים ועוד .."
+
+#: includes/main-api.php:161
+msgid "All Vendors"
+msgstr "כל המוכרים"
+
+#: includes/orders-api.php:28
+msgid "User Email"
+msgstr "האימייל של המשתמש"
+
+#: includes/orders-api.php:38
+msgid "Orders count to retrieve"
+msgstr "הספירה לספור כדי לאחזר"
+
+#: includes/orders-api.php:102
+msgid "Payment gateway"
+msgstr "אמצעי תשלום"
+
+#: includes/orders-api.php:119
+msgid "Fee"
+msgstr "עמלה"
+
+#. translators: 1: refund id 2: refund date 3: username
+#: includes/orders-api.php:129
+#, php-format
+msgid "Refund #%1$s - %2$s by %3$s"
+msgstr "החזר כספי של%1$s -%2$s על ידי%3$s"
+
+#. translators: 1: ID who refunded
+#: includes/orders-api.php:135
+#, php-format
+msgid "ID: %d"
+msgstr "‫ID: %d"
+
+#. translators: 1: refund id 2: refund date
+#: includes/orders-api.php:142
+#, php-format
+msgid "Refund #%1$s - %2$s"
+msgstr "בצע החזר כספי עבור %s באמצעות %s"
+
+#: includes/orders-api.php:239
+#, php-format
+msgid "%s %s from %s"
+msgstr "%s %s מ %s"
+
+#: includes/orders-api.php:239
+msgid "product"
+msgid_plural "products"
+msgstr[0] "מוצר"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: includes/search-api.php:44
+msgid "Search Keyword"
+msgstr "מילת מפתח לחיפוש"
+
+#: includes/user-api.php:28
+msgid "IDs of user's favorite vendors"
+msgstr "מזהי הספקים המועדפים על המשתמש"
+
+#: includes/user-api.php:51
+msgid "IDs of user's favorite items"
+msgstr "מזהים של הפריטים המועדפים על המשתמש"
+
+#: includes/vendor-api.php:46
+msgid "Invalid Vendor ID."
+msgstr "מזהה ספק לא חוקי."
+
+#: includes/vendor-api.php:68
+msgid "All Time"
+msgstr "כל הזמנים"
+
+#: includes/vendor-api.php:70
+msgid "to"
+msgstr "עד"
+
+#. Plugin Name of the plugin/theme
+msgid "Norsani API"
+msgstr "Norsani API"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/norsani-api/"
+msgstr "https://wordpress.org/plugins/norsani-api/"
+
+#. Description of the plugin/theme
+msgid ""
+"API to connect with <a href=\"https://codecanyon.net/item/norsani-"
+"multivendor-food-ordering-system/22255486\">Norsani</a>."
+msgstr ""
+"API כדי להתחבר עם <a href=\"https://codecanyon.net/item/norsani-multivendor-"
+"food-ordering-system/22255486\">Norsani</a> ."
+
+#. Author of the plugin/theme
+msgid "Mahmud Hamid"
+msgstr "Mahmud Hamid"
+
+#. Author URI of the plugin/theme
+msgid "https://mahmudhamid.com"
+msgstr "https://mahmudhamid.com"
+
+#~ msgid "item"
+#~ msgid_plural "items"
+#~ msgstr[0] "פריט"
+#~ msgstr[1] "פריט"
+#~ msgstr[2] "פריט"
+#~ msgstr[3] "פריט"
+
+#~ msgid "http://www.mahmudhamid.com/"
+#~ msgstr "http://www.mahmudhamid.com/"

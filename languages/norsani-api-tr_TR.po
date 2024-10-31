@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Norsani API\n"
+"POT-Creation-Date: 2019-07-08 23:18+0300\n"
+"PO-Revision-Date: 2019-07-08 23:18+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: norsani-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin-options.php:14
+msgid "API"
+msgstr "API"
+
+#: includes/admin-options.php:30
+#, php-format
+msgid "Braintree Settings (%s)"
+msgstr "Braintree Ayarları ( %s)"
+
+#: includes/admin-options.php:30
+msgid "API credentials"
+msgstr "API bilgileri"
+
+#: includes/api-functions.php:12
+msgid "Norsani Mobile App User Menu"
+msgstr "Norsani Mobile App Kullanıcı Menüsü"
+
+#: includes/api-functions.php:62
+#, php-format
+msgid "Sorry %s is %s."
+msgstr "Üzgünüz %s %s."
+
+#: includes/api-functions.php:67
+#, php-format
+msgid "Sorry you cannot order from %s at this time."
+msgstr "Üzgünüz, şu anda %s öğesinden sipariş veremezsiniz."
+
+#: includes/api-functions.php:77
+#, php-format
+msgid ""
+"Sorry, %s service is not available at the moment. Please choose another "
+"service."
+msgstr ""
+"Maalesef, %s hizmeti şu anda mevcut değil. Lütfen başka bir servis seçin."
+
+#: includes/api-functions.php:87
+#, php-format
+msgid ""
+"Sorry, we cannot receive any more orders for %s today, please come back "
+"another day."
+msgstr ""
+"Maalesef, bugün %s için daha fazla sipariş alamıyoruz, lütfen başka bir gün "
+"geri gelin."
+
+#: includes/api-functions.php:92
+#, php-format
+msgid ""
+"Sorry, You cannot order that much quantity of %s for today. Please add a "
+"quantity lower than %s"
+msgstr ""
+"Üzgünüz, bugün için bu kadar fazla miktarda %s sipariş edemezsiniz. Lütfen "
+"%s den daha düşük bir miktar ekleyin"
+
+#: includes/api-functions.php:98
+#, php-format
+msgid "Sorry, you cannot order %s at this time"
+msgstr "Üzgünüz, şu anda %s siparişi veremezsiniz."
+
+#: includes/api-functions.php:103
+#, php-format
+msgid "You cannot add another %s to your cart."
+msgstr "Alışveriş sepetine %s ekleyemezsin."
+
+#: includes/api-functions.php:109 includes/api-functions.php:139
+#, php-format
+msgid "Sorry, %s cannot be purchased at this time."
+msgstr "Maalesef, %s şu anda satın alınamıyor."
+
+#: includes/api-functions.php:115
+#, php-format
+msgid "You cannot add %s to the cart because quantity for today has finished."
+msgstr "Sepetinize %s ekleyemezsiniz çünkü bugün için miktar bitti."
+
+#: includes/api-functions.php:133
+#, php-format
+msgid ""
+"You cannot add that amount of %s to the cart, only %s is available today and "
+"you already have %s in your cart."
+msgstr ""
+"Bu %s miktarını sepete ekleyemezsiniz, bugün yalnızca %s kullanılabilir ve "
+"sepetinizde zaten %s var."
+
+#: includes/api-functions.php:195
+#, php-format
+msgid "Coupon %s does not exist."
+msgstr "%s kuponu mevcut değil."
+
+#: includes/api-functions.php:210
+#, php-format
+msgid "Coupon %s can only be used individually."
+msgstr "%s kuponu yalnızca bireysel olarak kullanılabilir."
+
+#: includes/api-functions.php:324
+#, php-format
+msgid "+ Free delivery from %s"
+msgstr "+ %s fiyatından ücretsiz teslimat"
+
+#: includes/api-functions.php:334
+msgid "Total Delivery"
+msgstr "Toplam teslimat"
+
+#: includes/api-functions.php:343
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(% s için tahmini)"
+
+#. translators: %s: country name
+#: includes/api-functions.php:375
+#, php-format
+msgid "estimated for %s"
+msgstr "tahmini %s"
+
+#. translators: %s: tax information
+#: includes/api-functions.php:377
+#, php-format
+msgid "(includes %s)"
+msgstr "(%s dahil)"
+
+#: includes/api-functions.php:553 includes/api-functions.php:555
+#: includes/api-functions.php:557 includes/api-functions.php:559
+#, php-format
+msgid "Ends in %s %s"
+msgstr "%s %s içinde bitiyor"
+
+#: includes/api-functions.php:553
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "Ay"
+msgstr[1] "Ay"
+
+#: includes/api-functions.php:555
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Gün"
+msgstr[1] "Gün"
+
+#: includes/api-functions.php:557
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "Saat"
+msgstr[1] "Saat"
+
+#: includes/api-functions.php:559
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "Dakika"
+msgstr[1] "Dakika"
+
+#: includes/api-functions.php:891
+msgid "a free"
+msgstr "bedava"
+
+#: includes/api-functions.php:898
+msgid "discount"
+msgstr "İndirim"
+
+#: includes/authenticate-api.php:94
+msgid "Sorry, you are not allowed to preform this action."
+msgstr "Maalesef, bu işlemi önceden yapmanıza izin verilmiyor."
+
+#: includes/authenticate-api.php:141
+msgid "Consumer secret is invalid."
+msgstr "Geçersiz kullanıcı kilidi."
+
+#. translators: %s: amount of errors
+#: includes/authenticate-api.php:259
+#, php-format
+msgid "Missing OAuth parameter %s"
+msgid_plural "Missing OAuth parameters %s"
+msgstr[0] "%s OAuth parametresi eksik"
+msgstr[1] "%s OAuth parametreleri eksik"
+
+#: includes/authenticate-api.php:299
+msgid "Consumer key is invalid."
+msgstr "Geçersiz kullanıcı anahtarı."
+
+#: includes/authenticate-api.php:343
+msgid "Invalid signature - failed to sort parameters."
+msgstr "Geçersiz imza - parametreleri sıralayamadı."
+
+#: includes/authenticate-api.php:352
+msgid "Invalid signature - signature method is invalid."
+msgstr "Geçersiz imza - imza yöntemi geçersiz."
+
+#: includes/authenticate-api.php:360
+msgid "Invalid signature - provided signature does not match."
+msgstr "Geçersiz imza - sağlanan imza eşleşmiyor."
+
+#: includes/authenticate-api.php:436
+msgid "Invalid timestamp."
+msgstr "Geçersiz zaman damgası."
+
+#: includes/authenticate-api.php:446
+msgid "Invalid nonce - nonce has already been used."
+msgstr "Geçersiz olmayan - hiç kullanılmamış."
+
+#: includes/authenticate-api.php:508
+msgid "The API key provided does not have read permissions."
+msgstr "Sağlanan API anahtarında okuma izni yok."
+
+#: includes/authenticate-api.php:516
+msgid "The API key provided does not have write permissions."
+msgstr "Sağlanan API anahtarı yazma izinlerine sahip değil."
+
+#: includes/authenticate-api.php:521
+msgid "Unknown request method."
+msgstr "Bilinmeyen istek yöntemi."
+
+#: includes/cart-api.php:28 includes/checkout-api.php:28
+#: includes/checkout-api.php:64
+msgid "Cart data"
+msgstr "Sepet verileri"
+
+#: includes/cart-api.php:38 includes/checkout-api.php:38
+#: includes/checkout-api.php:89
+msgid "Cart coupons"
+msgstr "Alışveriş sepeti kuponları"
+
+#: includes/checkout-api.php:46 includes/checkout-api.php:75
+msgid "Order Type"
+msgstr "Sipariş Türü"
+
+#: includes/checkout-api.php:82
+msgid "Order Preparation Time"
+msgstr "Sipariş Hazırlama Süresi"
+
+#: includes/checkout-api.php:97
+msgid "Billing Form"
+msgstr "Fatura Formu"
+
+#: includes/checkout-api.php:108
+msgid "Payment Method"
+msgstr "Ödeme Yöntemi"
+
+#: includes/checkout-api.php:115
+msgid "Delivery Notes"
+msgstr "Teslimat notları"
+
+#: includes/checkout-api.php:122
+msgid "User Location"
+msgstr "Kullanıcı yeri"
+
+#: includes/checkout-api.php:129
+msgid "User Geo Location"
+msgstr "Kullanıcı Coğrafi Konumu"
+
+#: includes/checkout-api.php:385
+msgid "Cash on Delivery"
+msgstr "Kapıda ödeme"
+
+#: includes/checkout-api.php:447
+msgid "Immediately"
+msgstr "Derhal"
+
+#: includes/checkout-api.php:487
+msgid "Free Delivery"
+msgstr "Ücretsiz teslimat"
+
+#: includes/checkout-api.php:491
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/checkout-api.php:500
+msgid "Minutes"
+msgstr "Dakika"
+
+#: includes/location-api.php:34
+#, php-format
+msgid "All of %s"
+msgstr "%s tümü"
+
+#: includes/main-api.php:28
+msgid "Default data to retrieve"
+msgstr "Alınacak varsayılan veriler"
+
+#: includes/main-api.php:40
+msgid "Available data to retrieve"
+msgstr "Alınacak veri"
+
+#: includes/main-api.php:57 includes/orders-api.php:51
+#: includes/vendor-api.php:23
+msgid "Unique identifier for the resource."
+msgstr "İnsan kaynağının eşsiz kodu."
+
+#: includes/main-api.php:80 includes/search-api.php:28
+msgid "Type of vendors to retrieve"
+msgstr "Alınacak satıcı türü"
+
+#: includes/main-api.php:88 includes/search-api.php:36
+msgid "Order type"
+msgstr "Sıralama Türü"
+
+#: includes/main-api.php:95
+msgid "Customer account email address"
+msgstr "Müşteri hesabı e-posta adresi"
+
+#: includes/main-api.php:102
+msgid "User locality"
+msgstr "Kullanıcının bulunduğu yer"
+
+#: includes/main-api.php:137
+msgid "Search & order from nearby chefs and more.."
+msgstr "Yakındaki şefler ve daha fazla arama ve sipariş .."
+
+#: includes/main-api.php:161
+msgid "All Vendors"
+msgstr "Tüm Satıcılar"
+
+#: includes/orders-api.php:28
+msgid "User Email"
+msgstr "Kullanıcı E-Postası"
+
+#: includes/orders-api.php:38
+msgid "Orders count to retrieve"
+msgstr "Alınacak sipariş sayısı"
+
+#: includes/orders-api.php:102
+msgid "Payment gateway"
+msgstr "Ödeme ağ geçidi"
+
+#: includes/orders-api.php:119
+msgid "Fee"
+msgstr "Ücret"
+
+#. translators: 1: refund id 2: refund date 3: username
+#: includes/orders-api.php:129
+#, php-format
+msgid "Refund #%1$s - %2$s by %3$s"
+msgstr "Geri ödeme #%1$s - %2$s ile %3$s"
+
+#. translators: 1: ID who refunded
+#: includes/orders-api.php:135
+#, php-format
+msgid "ID: %d"
+msgstr "ID : %d"
+
+#. translators: 1: refund id 2: refund date
+#: includes/orders-api.php:142
+#, php-format
+msgid "Refund #%1$s - %2$s"
+msgstr "#%1$s - %2$s tutarında geri ödeme"
+
+#: includes/orders-api.php:239
+#, php-format
+msgid "%s %s from %s"
+msgstr "%s %s kaynağından %s"
+
+#: includes/orders-api.php:239
+msgid "product"
+msgid_plural "products"
+msgstr[0] "ürün"
+msgstr[1] ""
+
+#: includes/search-api.php:44
+msgid "Search Keyword"
+msgstr "Anahtar Kelime Ara"
+
+#: includes/user-api.php:28
+msgid "IDs of user's favorite vendors"
+msgstr "Kullanıcının favori satıcılarının kimlikleri"
+
+#: includes/user-api.php:51
+msgid "IDs of user's favorite items"
+msgstr "Kullanıcının favori öğelerinin kimlikleri"
+
+#: includes/vendor-api.php:46
+msgid "Invalid Vendor ID."
+msgstr "Geçersiz satıcı kimliği."
+
+#: includes/vendor-api.php:68
+msgid "All Time"
+msgstr "Tüm Zamanlar"
+
+#: includes/vendor-api.php:70
+msgid "to"
+msgstr "için"
+
+#. Plugin Name of the plugin/theme
+msgid "Norsani API"
+msgstr "Norsani API"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/norsani-api/"
+msgstr "https://wordpress.org/plugins/norsani-api/"
+
+#. Description of the plugin/theme
+msgid ""
+"API to connect with <a href=\"https://codecanyon.net/item/norsani-"
+"multivendor-food-ordering-system/22255486\">Norsani</a>."
+msgstr ""
+"<a href=\"https://codecanyon.net/item/norsani-multivendor-food-ordering-"
+"system/22255486\">Norsani</a> ile bağlantı kurmak için API."
+
+#. Author of the plugin/theme
+msgid "Mahmud Hamid"
+msgstr "Mahmud Hamid"
+
+#. Author URI of the plugin/theme
+msgid "https://mahmudhamid.com"
+msgstr "https://mahmudhamid.com"
+
+#~ msgid "item"
+#~ msgid_plural "items"
+#~ msgstr[0] "ürün"
+#~ msgstr[1] "öğeler"
+
+#~ msgid "http://www.mahmudhamid.com/"
+#~ msgstr "http://www.mahmudhamid.com/"

@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Norsani API\n"
+"POT-Creation-Date: 2019-07-08 23:17+0300\n"
+"PO-Revision-Date: 2019-07-08 23:17+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: norsani-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin-options.php:14
+msgid "API"
+msgstr "API"
+
+#: includes/admin-options.php:30
+#, php-format
+msgid "Braintree Settings (%s)"
+msgstr "Настройки Braintree (%s)"
+
+#: includes/admin-options.php:30
+msgid "API credentials"
+msgstr "Данные для API"
+
+#: includes/api-functions.php:12
+msgid "Norsani Mobile App User Menu"
+msgstr "Меню пользователя мобильного приложения Norsani"
+
+#: includes/api-functions.php:62
+#, php-format
+msgid "Sorry %s is %s."
+msgstr "Извините, %s - это %s."
+
+#: includes/api-functions.php:67
+#, php-format
+msgid "Sorry you cannot order from %s at this time."
+msgstr "Извините, что в данный момент не можете сделать заказ в %s."
+
+#: includes/api-functions.php:77
+#, php-format
+msgid ""
+"Sorry, %s service is not available at the moment. Please choose another "
+"service."
+msgstr ""
+"К сожалению, в данный момент услуга %s недоступна. Пожалуйста, выберите "
+"другую услугу."
+
+#: includes/api-functions.php:87
+#, php-format
+msgid ""
+"Sorry, we cannot receive any more orders for %s today, please come back "
+"another day."
+msgstr ""
+"Извините, мы больше не можем получать заказы на %s сегодня, пожалуйста, "
+"приходите в другой день."
+
+#: includes/api-functions.php:92
+#, php-format
+msgid ""
+"Sorry, You cannot order that much quantity of %s for today. Please add a "
+"quantity lower than %s"
+msgstr ""
+"Извините, на сегодняшний день нельзя заказывать столько %s Пожалуйста, "
+"добавьте количество меньше %s"
+
+#: includes/api-functions.php:98
+#, php-format
+msgid "Sorry, you cannot order %s at this time"
+msgstr "Извините, вы не можете заказать %s в это время"
+
+#: includes/api-functions.php:103
+#, php-format
+msgid "You cannot add another %s to your cart."
+msgstr "Вы не можете добавить в корзину другие %s."
+
+#: includes/api-functions.php:109 includes/api-functions.php:139
+#, php-format
+msgid "Sorry, %s cannot be purchased at this time."
+msgstr "Извините, в данный момент купить %s невозможно."
+
+#: includes/api-functions.php:115
+#, php-format
+msgid "You cannot add %s to the cart because quantity for today has finished."
+msgstr ""
+"Вы не можете добавить в корзину %s, потому что количество на сегодняшний "
+"день закончилось."
+
+#: includes/api-functions.php:133
+#, php-format
+msgid ""
+"You cannot add that amount of %s to the cart, only %s is available today and "
+"you already have %s in your cart."
+msgstr ""
+"Вы не можете добавить это количество %s в корзину, только %s доступно "
+"сегодня, и у вас уже есть %s в корзине."
+
+#: includes/api-functions.php:195
+#, php-format
+msgid "Coupon %s does not exist."
+msgstr "Купонов в %s не существует."
+
+#: includes/api-functions.php:210
+#, php-format
+msgid "Coupon %s can only be used individually."
+msgstr "Купоны %s могут быть использованы только по отдельности."
+
+#: includes/api-functions.php:324
+#, php-format
+msgid "+ Free delivery from %s"
+msgstr "+ Бесплатная доставка от %s"
+
+#: includes/api-functions.php:334
+msgid "Total Delivery"
+msgstr "Всего Доставка"
+
+#: includes/api-functions.php:343
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(оценивается %s)"
+
+#. translators: %s: country name
+#: includes/api-functions.php:375
+#, php-format
+msgid "estimated for %s"
+msgstr "по оценкам, для %s"
+
+#. translators: %s: tax information
+#: includes/api-functions.php:377
+#, php-format
+msgid "(includes %s)"
+msgstr "(в т.ч. %s)"
+
+#: includes/api-functions.php:553 includes/api-functions.php:555
+#: includes/api-functions.php:557 includes/api-functions.php:559
+#, php-format
+msgid "Ends in %s %s"
+msgstr "Конец в %s %ss"
+
+#: includes/api-functions.php:553
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "Месяц"
+msgstr[1] "Месяц"
+msgstr[2] "Месяц"
+
+#: includes/api-functions.php:555
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "День"
+msgstr[1] "День"
+msgstr[2] "День"
+
+#: includes/api-functions.php:557
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "Час"
+msgstr[1] "Час"
+msgstr[2] "Час"
+
+#: includes/api-functions.php:559
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "Минута"
+msgstr[1] "Минута"
+msgstr[2] "Минута"
+
+#: includes/api-functions.php:891
+msgid "a free"
+msgstr "бесплатно"
+
+#: includes/api-functions.php:898
+msgid "discount"
+msgstr "скидка"
+
+#: includes/authenticate-api.php:94
+msgid "Sorry, you are not allowed to preform this action."
+msgstr "Извините, но вы не можете выполнить это действие."
+
+#: includes/authenticate-api.php:141
+msgid "Consumer secret is invalid."
+msgstr "Секретный код пользователя недействителен."
+
+#. translators: %s: amount of errors
+#: includes/authenticate-api.php:259
+#, php-format
+msgid "Missing OAuth parameter %s"
+msgid_plural "Missing OAuth parameters %s"
+msgstr[0] "OAuth параметр %s алдагдсан"
+msgstr[1] "OAuth параметр %s алдагдсан"
+msgstr[2] "OAuth параметр %s алдагдсан"
+
+#: includes/authenticate-api.php:299
+msgid "Consumer key is invalid."
+msgstr "Пользовательский ключ недействителен."
+
+#: includes/authenticate-api.php:343
+msgid "Invalid signature - failed to sort parameters."
+msgstr "Недействительная подпись - не удалось отсортировать параметры."
+
+#: includes/authenticate-api.php:352
+msgid "Invalid signature - signature method is invalid."
+msgstr "Недействительная подпись - некорректный метод подписи."
+
+#: includes/authenticate-api.php:360
+msgid "Invalid signature - provided signature does not match."
+msgstr "Недействительная подпись - предоставленная подпись не совпала."
+
+#: includes/authenticate-api.php:436
+msgid "Invalid timestamp."
+msgstr "Недействительная отметка времени."
+
+#: includes/authenticate-api.php:446
+msgid "Invalid nonce - nonce has already been used."
+msgstr "Недействительный nonce - nonce уже был использован."
+
+#: includes/authenticate-api.php:508
+msgid "The API key provided does not have read permissions."
+msgstr "Прилагаемый ключ API не имеет прав на чтение."
+
+#: includes/authenticate-api.php:516
+msgid "The API key provided does not have write permissions."
+msgstr "Прилагаемый ключ API не имеет прав на запись."
+
+#: includes/authenticate-api.php:521
+msgid "Unknown request method."
+msgstr "Неизвестный метод запроса."
+
+#: includes/cart-api.php:28 includes/checkout-api.php:28
+#: includes/checkout-api.php:64
+msgid "Cart data"
+msgstr "Данные тележки"
+
+#: includes/cart-api.php:38 includes/checkout-api.php:38
+#: includes/checkout-api.php:89
+msgid "Cart coupons"
+msgstr "Купоны на корзину"
+
+#: includes/checkout-api.php:46 includes/checkout-api.php:75
+msgid "Order Type"
+msgstr "Тип заказа"
+
+#: includes/checkout-api.php:82
+msgid "Order Preparation Time"
+msgstr "Время подготовки заказа"
+
+#: includes/checkout-api.php:97
+msgid "Billing Form"
+msgstr "Форма для выставления счетов"
+
+#: includes/checkout-api.php:108
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+#: includes/checkout-api.php:115
+msgid "Delivery Notes"
+msgstr "Товарные накладные"
+
+#: includes/checkout-api.php:122
+msgid "User Location"
+msgstr "Местоположение пользователя"
+
+#: includes/checkout-api.php:129
+msgid "User Geo Location"
+msgstr "Географическое местоположение пользователя"
+
+#: includes/checkout-api.php:385
+msgid "Cash on Delivery"
+msgstr "Оплата курьеру."
+
+#: includes/checkout-api.php:447
+msgid "Immediately"
+msgstr "Немедленно"
+
+#: includes/checkout-api.php:487
+msgid "Free Delivery"
+msgstr "Бесплатная доставка"
+
+#: includes/checkout-api.php:491
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/checkout-api.php:500
+msgid "Minutes"
+msgstr "Минут"
+
+#: includes/location-api.php:34
+#, php-format
+msgid "All of %s"
+msgstr "Все %s"
+
+#: includes/main-api.php:28
+msgid "Default data to retrieve"
+msgstr "Данные по умолчанию для получения данных по умолчанию"
+
+#: includes/main-api.php:40
+msgid "Available data to retrieve"
+msgstr "Доступные данные для получения"
+
+#: includes/main-api.php:57 includes/orders-api.php:51
+#: includes/vendor-api.php:23
+msgid "Unique identifier for the resource."
+msgstr "Уникальный идентификатор ресурса."
+
+#: includes/main-api.php:80 includes/search-api.php:28
+msgid "Type of vendors to retrieve"
+msgstr "Вид поставщиков для получения обратной связи"
+
+#: includes/main-api.php:88 includes/search-api.php:36
+msgid "Order type"
+msgstr "Тип заказа"
+
+#: includes/main-api.php:95
+msgid "Customer account email address"
+msgstr "Адрес электронной почты клиентского аккаунта"
+
+#: includes/main-api.php:102
+msgid "User locality"
+msgstr "Местность пользователя"
+
+#: includes/main-api.php:137
+msgid "Search & order from nearby chefs and more.."
+msgstr "Поиск и заказ от близлежащих шеф-поваров и многое другое..."
+
+#: includes/main-api.php:161
+msgid "All Vendors"
+msgstr "Все продавцы"
+
+#: includes/orders-api.php:28
+msgid "User Email"
+msgstr "Email пользователя"
+
+#: includes/orders-api.php:38
+msgid "Orders count to retrieve"
+msgstr "Приказы считаются для получения"
+
+#: includes/orders-api.php:102
+msgid "Payment gateway"
+msgstr "Платежный шлюз"
+
+#: includes/orders-api.php:119
+msgid "Fee"
+msgstr "Плата"
+
+#. translators: 1: refund id 2: refund date 3: username
+#: includes/orders-api.php:129
+#, php-format
+msgid "Refund #%1$s - %2$s by %3$s"
+msgstr "Возврат #%1$s — %2$s из %3$s"
+
+#. translators: 1: ID who refunded
+#: includes/orders-api.php:135
+#, php-format
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#. translators: 1: refund id 2: refund date
+#: includes/orders-api.php:142
+#, php-format
+msgid "Refund #%1$s - %2$s"
+msgstr "Возврат #%1$s - %2$s"
+
+#: includes/orders-api.php:239
+#, php-format
+msgid "%s %s from %s"
+msgstr "%s %s от %s"
+
+#: includes/orders-api.php:239
+msgid "product"
+msgid_plural "products"
+msgstr[0] "товар"
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/search-api.php:44
+msgid "Search Keyword"
+msgstr "Поиск по ключевому слову"
+
+#: includes/user-api.php:28
+msgid "IDs of user's favorite vendors"
+msgstr "Идентификаторы любимых поставщиков пользователей"
+
+#: includes/user-api.php:51
+msgid "IDs of user's favorite items"
+msgstr "Идентификаторы любимых товаров пользователя"
+
+#: includes/vendor-api.php:46
+msgid "Invalid Vendor ID."
+msgstr "Недействительный идентификатор поставщика."
+
+#: includes/vendor-api.php:68
+msgid "All Time"
+msgstr "За все время"
+
+#: includes/vendor-api.php:70
+msgid "to"
+msgstr "до"
+
+#. Plugin Name of the plugin/theme
+msgid "Norsani API"
+msgstr "Norsani API"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/norsani-api/"
+msgstr "https://wordpress.org/plugins/norsani-api/"
+
+#. Description of the plugin/theme
+msgid ""
+"API to connect with <a href=\"https://codecanyon.net/item/norsani-"
+"multivendor-food-ordering-system/22255486\">Norsani</a>."
+msgstr ""
+"API для связи с <a href=\"https://codecanyon.net/item/norsani-multivendor-"
+"food-ordering-system/22255486\">Норсани</a>."
+
+#. Author of the plugin/theme
+msgid "Mahmud Hamid"
+msgstr "Mahmud Hamid"
+
+#. Author URI of the plugin/theme
+msgid "https://mahmudhamid.com"
+msgstr "https://mahmudhamid.com"
+
+#~ msgid "item"
+#~ msgid_plural "items"
+#~ msgstr[0] "элемент"
+#~ msgstr[1] "элемент"
+#~ msgstr[2] "элемент"
+
+#~ msgid "http://www.mahmudhamid.com/"
+#~ msgstr "http://www.mahmudhamid.com/"

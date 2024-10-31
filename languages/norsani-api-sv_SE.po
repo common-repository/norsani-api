@@ -1,0 +1,433 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Norsani API\n"
+"POT-Creation-Date: 2019-07-08 23:17+0300\n"
+"PO-Revision-Date: 2019-07-08 23:18+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: norsani-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin-options.php:14
+msgid "API"
+msgstr "API"
+
+#: includes/admin-options.php:30
+#, php-format
+msgid "Braintree Settings (%s)"
+msgstr "Braintree inställningar ( %s)"
+
+#: includes/admin-options.php:30
+msgid "API credentials"
+msgstr "API-uppgifter"
+
+#: includes/api-functions.php:12
+msgid "Norsani Mobile App User Menu"
+msgstr "Användarmenyn för Norsani Mobile App"
+
+#: includes/api-functions.php:62
+#, php-format
+msgid "Sorry %s is %s."
+msgstr "Tyvärr %s är %s."
+
+#: includes/api-functions.php:67
+#, php-format
+msgid "Sorry you cannot order from %s at this time."
+msgstr "Tyvärr kan du inte beställa från %s just nu."
+
+#: includes/api-functions.php:77
+#, php-format
+msgid ""
+"Sorry, %s service is not available at the moment. Please choose another "
+"service."
+msgstr ""
+"Tyvärr, %s-tjänsten är inte tillgänglig för tillfället. Vänligen välj en "
+"annan tjänst."
+
+#: includes/api-functions.php:87
+#, php-format
+msgid ""
+"Sorry, we cannot receive any more orders for %s today, please come back "
+"another day."
+msgstr ""
+"Tyvärr, vi kan inte ta emot några fler beställningar för %s idag, kom "
+"tillbaka till en annan dag."
+
+#: includes/api-functions.php:92
+#, php-format
+msgid ""
+"Sorry, You cannot order that much quantity of %s for today. Please add a "
+"quantity lower than %s"
+msgstr ""
+"Tyvärr, du kan inte beställa så mycket mängd %s för idag. Lägg till en mängd "
+"som är lägre än %s"
+
+#: includes/api-functions.php:98
+#, php-format
+msgid "Sorry, you cannot order %s at this time"
+msgstr "Tyvärr kan du inte beställa %s vid denna tidpunkt"
+
+#: includes/api-functions.php:103
+#, php-format
+msgid "You cannot add another %s to your cart."
+msgstr "Du kan inte lägga till en annan %s i din kundvagn."
+
+#: includes/api-functions.php:109 includes/api-functions.php:139
+#, php-format
+msgid "Sorry, %s cannot be purchased at this time."
+msgstr "Tyvärr, %s kan inte köpas just nu."
+
+#: includes/api-functions.php:115
+#, php-format
+msgid "You cannot add %s to the cart because quantity for today has finished."
+msgstr ""
+"Du kan inte lägga till %s i vagnen eftersom kvantiteten för idag är klar."
+
+#: includes/api-functions.php:133
+#, php-format
+msgid ""
+"You cannot add that amount of %s to the cart, only %s is available today and "
+"you already have %s in your cart."
+msgstr ""
+"Du kan inte lägga till den här summan av %s i vagnen, bara %s är tillgänglig "
+"idag och du har redan %s i din vagn."
+
+#: includes/api-functions.php:195
+#, php-format
+msgid "Coupon %s does not exist."
+msgstr "Kupong %s existerar inte."
+
+#: includes/api-functions.php:210
+#, php-format
+msgid "Coupon %s can only be used individually."
+msgstr "Kupong %s kan bara användas individuellt."
+
+#: includes/api-functions.php:324
+#, php-format
+msgid "+ Free delivery from %s"
+msgstr "+ Fri leverans från %s"
+
+#: includes/api-functions.php:334
+msgid "Total Delivery"
+msgstr "Total leverans"
+
+#: includes/api-functions.php:343
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(beräknad för %s)"
+
+#. translators: %s: country name
+#: includes/api-functions.php:375
+#, php-format
+msgid "estimated for %s"
+msgstr "uppskattad för %s"
+
+#. translators: %s: tax information
+#: includes/api-functions.php:377
+#, php-format
+msgid "(includes %s)"
+msgstr "(inkl. %s)"
+
+#: includes/api-functions.php:553 includes/api-functions.php:555
+#: includes/api-functions.php:557 includes/api-functions.php:559
+#, php-format
+msgid "Ends in %s %s"
+msgstr "Slutar i %s %s"
+
+#: includes/api-functions.php:553
+msgid "Month"
+msgid_plural "Months"
+msgstr[0] "Månad"
+msgstr[1] "Månad"
+
+#: includes/api-functions.php:555
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Dag"
+msgstr[1] "Dagar"
+
+#: includes/api-functions.php:557
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "Timme"
+msgstr[1] "Timmar"
+
+#: includes/api-functions.php:559
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "Minut"
+msgstr[1] "Minuter"
+
+#: includes/api-functions.php:891
+msgid "a free"
+msgstr "en fri"
+
+#: includes/api-functions.php:898
+msgid "discount"
+msgstr "rabatt"
+
+#: includes/authenticate-api.php:94
+msgid "Sorry, you are not allowed to preform this action."
+msgstr "Tyvärr, det är inte tillåtet att förbereda denna åtgärd."
+
+#: includes/authenticate-api.php:141
+msgid "Consumer secret is invalid."
+msgstr "Hemlig användarnyckel är ogiltig."
+
+#. translators: %s: amount of errors
+#: includes/authenticate-api.php:259
+#, php-format
+msgid "Missing OAuth parameter %s"
+msgid_plural "Missing OAuth parameters %s"
+msgstr[0] "Saknar OAuth-parameter %s"
+msgstr[1] "Saknar OAuth-parametrar %s"
+
+#: includes/authenticate-api.php:299
+msgid "Consumer key is invalid."
+msgstr "Användarnyckel är ogiltig."
+
+#: includes/authenticate-api.php:343
+msgid "Invalid signature - failed to sort parameters."
+msgstr "Ogiltig signatur - misslyckades att sortera parametrar."
+
+#: includes/authenticate-api.php:352
+msgid "Invalid signature - signature method is invalid."
+msgstr "Ogiltig signatur - signaturmetoden är ogiltig."
+
+#: includes/authenticate-api.php:360
+msgid "Invalid signature - provided signature does not match."
+msgstr "Ogiltig signatur - angiven signatur stämmer inte överens."
+
+#: includes/authenticate-api.php:436
+msgid "Invalid timestamp."
+msgstr "Ogiltig tidsstämpel."
+
+#: includes/authenticate-api.php:446
+msgid "Invalid nonce - nonce has already been used."
+msgstr "Ogiltigt nonce - nonce har redan använts."
+
+#: includes/authenticate-api.php:508
+msgid "The API key provided does not have read permissions."
+msgstr "Angiven API-nyckel har inte läsrättigheter."
+
+#: includes/authenticate-api.php:516
+msgid "The API key provided does not have write permissions."
+msgstr "Angiven API-nyckel har inte skrivrättigheter."
+
+#: includes/authenticate-api.php:521
+msgid "Unknown request method."
+msgstr "Okänd förfrågan metod."
+
+#: includes/cart-api.php:28 includes/checkout-api.php:28
+#: includes/checkout-api.php:64
+msgid "Cart data"
+msgstr "Varukorgdata"
+
+#: includes/cart-api.php:38 includes/checkout-api.php:38
+#: includes/checkout-api.php:89
+msgid "Cart coupons"
+msgstr "Varukorgkuponger"
+
+#: includes/checkout-api.php:46 includes/checkout-api.php:75
+msgid "Order Type"
+msgstr "Sorteringstyp"
+
+#: includes/checkout-api.php:82
+msgid "Order Preparation Time"
+msgstr "Orderberedningstid"
+
+#: includes/checkout-api.php:97
+msgid "Billing Form"
+msgstr "Faktureringsformulär"
+
+#: includes/checkout-api.php:108
+msgid "Payment Method"
+msgstr "Betalningsmetod"
+
+#: includes/checkout-api.php:115
+msgid "Delivery Notes"
+msgstr "Följesedlar"
+
+#: includes/checkout-api.php:122
+msgid "User Location"
+msgstr "Besökarens plats"
+
+#: includes/checkout-api.php:129
+msgid "User Geo Location"
+msgstr "User Geo Location"
+
+#: includes/checkout-api.php:385
+msgid "Cash on Delivery"
+msgstr "Postförskottsbetalning (COD)"
+
+#: includes/checkout-api.php:447
+msgid "Immediately"
+msgstr "Direkt"
+
+#: includes/checkout-api.php:487
+msgid "Free Delivery"
+msgstr "Fri leverans"
+
+#: includes/checkout-api.php:491
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/checkout-api.php:500
+msgid "Minutes"
+msgstr "Minuter"
+
+#: includes/location-api.php:34
+#, php-format
+msgid "All of %s"
+msgstr "Alla av %s"
+
+#: includes/main-api.php:28
+msgid "Default data to retrieve"
+msgstr "Standarddata för att hämta"
+
+#: includes/main-api.php:40
+msgid "Available data to retrieve"
+msgstr "Tillgänglig data för att hämta"
+
+#: includes/main-api.php:57 includes/orders-api.php:51
+#: includes/vendor-api.php:23
+msgid "Unique identifier for the resource."
+msgstr "Unik identifierare för resursen."
+
+#: includes/main-api.php:80 includes/search-api.php:28
+msgid "Type of vendors to retrieve"
+msgstr "Typ av leverantörer att hämta"
+
+#: includes/main-api.php:88 includes/search-api.php:36
+msgid "Order type"
+msgstr "Ordertyp"
+
+#: includes/main-api.php:95
+msgid "Customer account email address"
+msgstr "E-postadress för kundkonto"
+
+#: includes/main-api.php:102
+msgid "User locality"
+msgstr "Användarplats"
+
+#: includes/main-api.php:137
+msgid "Search & order from nearby chefs and more.."
+msgstr "Sök och beställ från närliggande kockar och mer .."
+
+#: includes/main-api.php:161
+msgid "All Vendors"
+msgstr "Alla Säljare"
+
+#: includes/orders-api.php:28
+msgid "User Email"
+msgstr "Användarens e-post"
+
+#: includes/orders-api.php:38
+msgid "Orders count to retrieve"
+msgstr "Order räknas för att hämta"
+
+#: includes/orders-api.php:102
+msgid "Payment gateway"
+msgstr "Betalningsmodul"
+
+#: includes/orders-api.php:119
+msgid "Fee"
+msgstr "Avgift"
+
+#. translators: 1: refund id 2: refund date 3: username
+#: includes/orders-api.php:129
+#, php-format
+msgid "Refund #%1$s - %2$s by %3$s"
+msgstr "Återköp #%1$s - %2$s av %3$s"
+
+#. translators: 1: ID who refunded
+#: includes/orders-api.php:135
+#, php-format
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#. translators: 1: refund id 2: refund date
+#: includes/orders-api.php:142
+#, php-format
+msgid "Refund #%1$s - %2$s"
+msgstr "Återbetalt id: %1$s den: %2$s"
+
+#: includes/orders-api.php:239
+#, php-format
+msgid "%s %s from %s"
+msgstr "%s %s från %s"
+
+#: includes/orders-api.php:239
+msgid "product"
+msgid_plural "products"
+msgstr[0] "produkt"
+msgstr[1] ""
+
+#: includes/search-api.php:44
+msgid "Search Keyword"
+msgstr "Sökord"
+
+#: includes/user-api.php:28
+msgid "IDs of user's favorite vendors"
+msgstr "ID: er av användarens favoritleverantörer"
+
+#: includes/user-api.php:51
+msgid "IDs of user's favorite items"
+msgstr "ID: er av användarens favoritartiklar"
+
+#: includes/vendor-api.php:46
+msgid "Invalid Vendor ID."
+msgstr "Ogiltigt Leverantörs-ID."
+
+#: includes/vendor-api.php:68
+msgid "All Time"
+msgstr "Totalt"
+
+#: includes/vendor-api.php:70
+msgid "to"
+msgstr "till"
+
+#. Plugin Name of the plugin/theme
+msgid "Norsani API"
+msgstr "Norsani API"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/norsani-api/"
+msgstr "https://wordpress.org/plugins/norsani-api/"
+
+#. Description of the plugin/theme
+msgid ""
+"API to connect with <a href=\"https://codecanyon.net/item/norsani-"
+"multivendor-food-ordering-system/22255486\">Norsani</a>."
+msgstr ""
+"API för att ansluta till <a href=\"https://codecanyon.net/item/norsani-"
+"multivendor-food-ordering-system/22255486\">Norsani</a> ."
+
+#. Author of the plugin/theme
+msgid "Mahmud Hamid"
+msgstr "Mahmud Hamid"
+
+#. Author URI of the plugin/theme
+msgid "https://mahmudhamid.com"
+msgstr "https://mahmudhamid.com"
+
+#~ msgid "item"
+#~ msgid_plural "items"
+#~ msgstr[0] "objekt"
+#~ msgstr[1] "objekt"
+
+#~ msgid "http://www.mahmudhamid.com/"
+#~ msgstr "http://www.mahmudhamid.com/"
